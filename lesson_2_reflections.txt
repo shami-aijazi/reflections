@@ -1,0 +1,10 @@
+-What happens when you intialize a repository? Why do you need to do that?
+A .git file gets created that stores metadata about the repository. This allows you to do git things on the 
+repo, like see logs, diffs, and commits.
+
+-How is the staging area different from the working directory and the repository? What value do you think 
+it offers?
+The staging area is where you can add, view, and edit the files from your working directory before committing 
+them to the repository.
+
+
