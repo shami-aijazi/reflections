@@ -1,0 +1,49 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It helped because it showed the lines of that were different. If there was a previous version
+of the code that was working, then some changes were made that lead the code to stop working,
+then the changes were most likely erroneous. The diff will highlight the difference and thus
+the erroneous code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long 
+term?
+If you have versions of your program that work saved, you can use that as a safety net when trying to implement 
+a new addition to the program. You can also easily see the differences in different paths you took along the 
+way.
+
+
+-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs 
+having versions automatically saved, like Google Docs does?
+
+
+Pros: Versions are easier to read through because one commit will usually correspond to one logical change. 
+Whereas automatic changes run the risk of being too big (hard to read) or too small (useless).
+
+
+Cons: Human error. The user couold forget to commit changes or commit too many changes. Whereas automatic 
+changes guarantee that forgetting to manually commit a change will not result in loss of work becuase it is 
+automatically committed.
+
+
+-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while 
+others, like Google Docs, treat each file separately?
+
+
+Git is more geared towards code files, which tend to be interrelated and have dependencies on other files. 
+Whereas Google Docs is more geared towards non-code text, which could be treated seperately from each other 
+and still make sense.
+
+
+-How might using version control make you more confident to make changes that could break something?
+
+
+I can be more confident with making changes that could break something because I know I can revert to an older 
+working version if something does end up breaking.
+
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+
+
+1- Working on personal projects.
+
+2- Collaborating on open source projects
+
