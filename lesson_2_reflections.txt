@@ -15,3 +15,11 @@ Branches are useful in cases where you want to branch off from the main timeline
 
 -How do the diagrams help you visualize the branch structure?
 By allowing you to clearly see which branches currently exist in the repo, as well as the HEAD, and the which branch(es) are checked out.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It combines the logs of the two branches into one commit. Now, both branches' logs show up as a combined log (in chronological order) when a git log is done on the branch after merging.
+
+-What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros: Easier and quicker to auto-merge, especially when it is logically easy. Manual merging is more prone to human error.
+Cons: Always merging manually gives user more control and is less prone to logically incorrect auto-merges
+
