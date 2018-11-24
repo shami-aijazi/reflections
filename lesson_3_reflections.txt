@@ -2,3 +2,6 @@
 
 When you want to work on a project from multiple devices, when you want to collaborate with others on a project, 
 or when you want to display your project to the public.
+
+-Why might you want to always pull changes manually rather havaing Git automatically stay up-to-date with your remote repository?
+There may be changes that you are not ready to make public just yet.
